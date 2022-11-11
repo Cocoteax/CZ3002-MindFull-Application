@@ -1,0 +1,55 @@
+.appointment-page {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12vw;
+}
+
+.toggle-buttons {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.upcoming-button,
+.completed-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  border-style: groove;
+  border-width: 1.5px;
+  border-color: lightgray;
+}
+
+/* on upcoming page */
+.upcoming .upcoming-button {
+  background-color: #72e063;
+  color: white;
+}
+
+.upcoming .completed-button {
+  background-color: darkgray;
+  color: gray;
+}
+
+.upcoming .completed-button:hover {
+  background-color: gray;
+  color: darkgray;
+}
+
+/* on completed page */
+.completed .upcoming-button {
+  background-color: darkgray;
+  color: gray;
+}
+
+.completed .upcoming-button:hover {
+  background-color: gray;
+  color: darkgray;
+}
+
+.completed .completed-button {
+  background-color: #72e063;
+  color: white;
+}

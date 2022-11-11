@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+} */
+
+/* .App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 100vh;
+} */
+
+.register,
+.login {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+}
+
+.register-boxes,
+.login-boxes {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100vw;
+  height: 100vh;
+  color: #000;
+  /* max-width: 400px; */
+  min-height: 400px;
+  padding: 2rem;
+  background-color: white;
+}
+
+.register-page,
+.login-page {
+  display: flex;
+  justify-content: stretch;
+}
+
+.left-image {
+  display: flex;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.register-wrap,
+.login-wrap {
+  padding: 5vw;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+/* a,
+a:visited {
+  color: black;
+} */
+.sign-in-link {
+  color: black;
+}
+
+.register input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+.login input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.field-label {
+  margin-top: 1rem;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.sign-up,
+.sign-in {
+  padding: 0.5rem;
+  margin-top: 2rem;
+  background-color: #90ee91;
+  color: white;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: rgb(129, 223, 129);
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: rgb(205, 107, 107);
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}

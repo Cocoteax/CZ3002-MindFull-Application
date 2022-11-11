@@ -1,0 +1,52 @@
+.bg {
+  background: #00000050;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.cancel-appt-popup {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 5vw;
+}
+
+.button {
+  font-size: 1em;
+  width: fit-content;
+  border-width: 1.5px;
+  border-style: groove;
+  border-color: lightgray;
+  padding: 0.6vh 1vw;
+}
+
+.confirm-delete {
+  font-weight: bold;
+  background-color: #90ee91;
+  color: white;
+}
+
+.confirm-delete:hover {
+  background-color: #72e063;
+}
+
+.dont-delete:hover {
+  background-color: gray;
+  color: lightgray;
+}

@@ -1,0 +1,74 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2vw 3vw;
+  margin: 5vh 0;
+  border-style: groove;
+  border-radius: 8px;
+  width: 60vw;
+}
+
+.counsellor {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.counsellor-pic {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 100%;
+}
+
+.counsellor-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+}
+
+.counsellor-address {
+  display: flex;
+  gap: 1.6vw;
+  padding-left: 7vw;
+  align-items: center;
+  max-width: fit-content;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 3rem;
+  padding: 0 1vw;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+}
+
+.date,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  color: #3f3f3f;
+}
+
+.cancel-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: #90ee91;
+  color: white;
+  border-style: none;
+}
+
+.cancel-button:hover {
+  background-color: #72e063;
+}
