@@ -1,11 +1,11 @@
 # MindFull Application
 
 ## Overview
-* MindFull is a website that aims to promote mental health awareness and provide a community for like-minded people.
+MindFull is a website that aims to promote mental health awareness and provide a community for like-minded people.
 
 ## Tech Stacks Used
-* Front-end developed using ReactJS (Developed by separate team)
-* Back-end developed using Django and Django Rest Framework
+Front-end developed using ReactJS (Developed by separate team) <br/>
+Back-end developed using Django and Django Rest Framework
 
 ## Installation and Setup Instructions
 **Step 1:** Clone this repository <br/>
